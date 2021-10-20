@@ -32,6 +32,7 @@
     animation: fadeIn .2s linear;
 }
 .navigation{
+    display: block;
 }
 .navigation__item{
     display: flex;
@@ -78,7 +79,7 @@
     font-weight: bold;
     font-family: var(--secondary-font-family);
     color: var(--white-text-color);
-    line-height: 1rem;
+    line-height: 1.2;
     font-weight: 600;
 }
 .banner__content-title:first-child {
@@ -190,7 +191,7 @@
 
 }
 .member__items{
-    /* margin: 0 3px; */
+    /* margin-bottom: 20px; */
 }
 .member__items-img{
     padding-top: 100%;
@@ -218,7 +219,6 @@
     line-height: 1.4;
 }
 .member__social{
-    display: flex;
     display: flex;
     align-items: center;
 }
@@ -308,6 +308,7 @@
     font-weight: 400;
     margin: 20px 0 35px 0;
     color: var(--primary-color);
+    font-weight: 700;
 }
 .download__btn {
     margin-bottom: 100px;

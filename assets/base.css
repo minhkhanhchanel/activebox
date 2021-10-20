@@ -8,7 +8,6 @@
     --white-text-color: #fff;
     --primary-font-family: 'Raleway', sans-serif;
     --secondary-font-family: 'Open Sans', sans-serif;
-
 }
 
 
@@ -69,4 +68,14 @@ html{
     to {
         transform: translateY(0);
     }
+}
+
+/* icon close on mobile*/
+.fa-times{
+    font-size: 2.4rem;
+    z-index: 20;
+    padding: 12px 14px;
+    background-color: #e84545;
+    border-radius: 50%;
+
 }

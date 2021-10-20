@@ -1,0 +1,124 @@
+/* Mobile & Tablet */
+/*  */
+@media (max-width: 1023px) {
+    .header{
+
+    }
+
+    .header-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .mobile-menu{
+        background-color: #e84545;
+        border-radius: 50%;
+        position: relative;
+        z-index: 10;
+    }
+    .mobile-menu__ion-bar{
+        font-size: 2rem;
+        color:var(--white-text-color);
+        padding: 12px 14px;
+    }
+    /* menu mobile and tablet */
+    .navigation{
+        display: none;
+    }
+    .mobile-header-modal{
+        position: fixed;
+        top: 0;left: 0;right: 0;bottom: 0;
+        background-color: rgba(0,0,0,0.9);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: none;
+        animation: fadeIn .4s linear;
+    }
+    .mobile-header-modal__container{
+        display: inline-block;
+        position: absolute;
+    }
+    .mobile-header-modal__container-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mobile-header-modal__container-content{
+        font-size: 2.5rem;
+        line-height: 2.2;
+        color: #a6a4a2;
+    }
+    .member__items{
+        margin-bottom: 20px;
+        padding: 0 22px;
+        text-align: center;
+    }
+    .member__social{
+
+        justify-content: center;
+    }
+    .slider__content-title{
+        font-size: 2.6rem;
+    }
+    .slider__content{
+        padding: 30px;
+    }
+    .about{
+        display: fex;
+        padding-bottom: 20px;
+    }
+    .about__item{
+        padding: 30px 0 0 0;
+    }
+    .slider__content-desc{
+        margin-top: 30px;
+        align-self: center;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .banner__content{
+        width: calc(100% - 48px);
+    }
+    
+}
+
+/*  Mobile */
+@media (max-width: 739px) {
+    .header{
+        padding: 0 24px;
+    }
+    .banner__content{
+        width: calc(100% - 52px);
+    }
+    .banner__content-title{
+        font-size: 3.2rem;
+        margin: 0;
+        padding: 0;
+        line-height: 1.4;
+    }
+    .banner__content-title:first-child{
+        padding: 0;
+    }
+    .banner__content-desc{
+        font-size: 1.8rem;
+        line-height: 1.4;
+    }
+    .download__title{
+        line-height: 1.6;
+        text-align: center;
+    }
+    .about__item-info{
+        margin: 0 12px;
+    }
+}
+/* //navigation__item-content */
+
+.open{
+    display: flex;
+}
+.red{
+    display: ble;
+}

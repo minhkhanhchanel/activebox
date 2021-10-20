@@ -9,10 +9,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="./assets/app.js">
     <link rel="stylesheet" href="./assets/grid.css">
     <link rel="stylesheet" href="./assets/main.css">
     <link rel="stylesheet" href="./assets/base.css">
+    <link rel="stylesheet" href="./assets/responsive.css">
     <title>ActiveBox</title>
 </head>
 <body>
@@ -41,13 +41,27 @@
                         </li>
                     </ul>
                 </div>
+                <div class="mobile-menu js-mobile-menu js-mobile-menu2 l-0">
+                    <i class="mobile-menu__ion-bar fas fa-bars"></i>
+                </div>
+            </div>
+            <!-- menu mobile -->
+            <div class="mobile-header-modal js-mobile-header-modal l-0">
+                <ul class="mobile-header-modal__container js-mobile-header-modal__container">
+                    <li class="mobile-header-modal__container-items">
+                        <a href="#feature" class="mobile-header-modal__container-content navigation__item-content" >FEATURES</a>
+                        <a href="#work" class="mobile-header-modal__container-content navigation__item-content" >WORKS</a>
+                        <a href="#number" class="mobile-header-modal__container-content navigation__item-content" >OUR TEAM</a>
+                        <a href="#slider" class="mobile-header-modal__container-content navigation__item-content" >TESTIMONIALS</a>
+                        <a href="#download" class="mobile-header-modal__container-content navigation__item-content" >DOWNLOAD</a>
+                    </li>
+                </ul>
             </div>
         </div>
         <div class="banner grid">
             <img class="banner__img" src="./assets/img/banner.jpg" alt="banner">
             <div class="banner__content grid wide">
-                <h3 class="banner__content-title">YOUR FAVORITE ONE PAGE</h3>
-                <h3 class="banner__content-title">MULTI PURPOSE TEMPLATE</h3>
+                <h3 class="banner__content-title">YOUR FAVORITE ONE PAGE MULTI PURPOSE TEMPLATE</h3>
                 <p class="banner__content-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna vel scelerisque nisl consectetur et.</p>
                 <button class="btn btn--success">FIND OUT MORE</button>
             </div>
@@ -103,56 +117,56 @@
             </div>
             <div class="work" id="work">
                 <div class="row no-gutters" id="work-row">
-                    <div class="work__col col l-3">
+                    <div class="work__col col l-3 m-6 c-12">
                         <div class="work__item" style="background-image: url(./assets/img/work-1.jpg);"></div>
                         <div class="work__list">
                             <div class="work__list-title">PROJECT NAME</div>
                             <div class="work__list-desc">Website Design</div>
                         </div>
                     </div>
-                    <div class="work__col col l-3">
+                    <div class="work__col col l-3 m-6 c-12">
                         <div class="work__item" style="background-image: url(./assets/img/work-2.jpg);"></div>
                         <div class="work__list">
                             <div class="work__list-title">PROJECT NAME</div>
                             <div class="work__list-desc">Website Design</div>
                         </div>
                     </div>
-                    <div class="work__col col l-3">
+                    <div class="work__col col l-3 m-6 c-12">
                         <div class="work__item" style="background-image: url(./assets/img/work-3.jpg);"></div>
                         <div class="work__list">
                             <div class="work__list-title">PROJECT NAME</div>
                             <div class="work__list-desc">Website Design</div>
                         </div>
                     </div>
-                    <div class="work__col col l-3">
+                    <div class="work__col col l-3 m-6 c-12">
                         <div class="work__item" style="background-image: url(./assets/img/work-4.jpg);"></div>
                         <div class="work__list">
                             <div class="work__list-title">PROJECT NAME</div>
                             <div class="work__list-desc">Website Design</div>
                         </div>
                     </div>
-                    <div class="work__col col l-3">
+                    <div class="work__col col l-3 m-6 c-12">
                         <div class="work__item" style="background-image: url(./assets/img/work-5.jpg);"></div>
                         <div class="work__list">
                             <div class="work__list-title">PROJECT NAME</div>
                             <div class="work__list-desc">Website Design</div>
                         </div>
                     </div>
-                    <div class="work__col col l-3">
+                    <div class="work__col col l-3 m-6 c-12">
                         <div class="work__item" style="background-image: url(./assets/img/work-6.jpg);"></div>
                         <div class="work__list">
                             <div class="work__list-title">PROJECT NAME</div>
                             <div class="work__list-desc">Website Design</div>
                         </div>
                     </div>
-                    <div class="work__col col l-3">
+                    <div class="work__col col l-3 m-6 c-12">
                         <div class="work__item" style="background-image: url(./assets/img/work-7.jpg);"></div>
                         <div class="work__list">
                             <div class="work__list-title">PROJECT NAME</div>
                             <div class="work__list-desc">Website Design</div>
                         </div>
                     </div>
-                    <div class="work__col col l-3">
+                    <div class="work__col col l-3 m-6 c-12">
                         <div class="work__item" style="background-image: url(./assets/img/work-8.jpg);"></div>
                         <div class="work__list">
                             <div class="work__list-title">PROJECT NAME</div>
@@ -164,7 +178,7 @@
             <div class="member" id="number">
                 <div class="grid wide">
                     <div class="row member__row">
-                        <div class="col l-3">
+                        <div class="col l-3 m-6 c-12">
                             <div class="member__items">
                                 <div class="member__items-img" style="background-image: url(./assets/img/team-1.jpg);"></div>
                                 <div class="member__items-name">Puth Woods</div>
@@ -179,7 +193,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col l-3">
+                        <div class="col l-3 m-6 c-12">
                             <div class="member__items">
                                 <div class="member__items-img" style="background-image: url(./assets/img/team-2.jpg);"></div>
                                 <div class="member__items-name">Timothy Reed</div>
@@ -194,7 +208,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col l-3">
+                        <div class="col l-3 m-6 c-12">
                             <div class="member__items">
                                 <div class="member__items-img" style="background-image: url(./assets/img/team-3.jpg);"></div>
                                 <div class="member__items-name">Victoria Valdez</div>
@@ -209,7 +223,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col l-3">
+                        <div class="col l-3 m-6 c-12">
                             <div class="member__items">
                                 <div class="member__items-img" style="background-image: url(./assets/img/team-4.jpg);"></div>
                                 <div class="member__items-name">Beverly Little</div>
@@ -258,14 +272,14 @@
         <div class="footer">
             <div class="grid wide">
                 <div class="row about">
-                    <div class="col l-4">
+                    <div class="col l-4 m-12 c-12">
                         <div class="about__item">
-                           <h3 class="about__item-title">Location</h3>
+                           <h3 class="about__item-title">LOCATION</h3>
                            <p class="about__item-info">3481 Melrose Place</p>
                            <p class="about__item-info">Beverly Hills, CA 90210</p>
                         </div>
                     </div>
-                    <div class="col l-4">
+                    <div class="col l-4 m-12 c-12">
                         <div class="about__item">
                             <h3 class="about__item-title">SHARE WITH LOVE</h3>
                             <div class="member__social about__item-social">
@@ -284,7 +298,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col l-4">
+                    <div class="col l-4 m-12 c-12">
                         <div class="about__item">
                            <h3 class="about__item-title">ABOUT ACTIVEBOX</h3>
                            <p class="about__item-info">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.</p>
@@ -302,16 +316,7 @@
     </div>
 
     <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
-    <script>
-        $(document).ready(function() {
-            $(window).scroll(function() {
-                if($(this).scrollTop()){
-                    $('.header').addClass('sticky');
-                } else {
-                    $('.header').removeClass('sticky');
-                }
-            })
-        })
+    <script src="./assets/app.js">
     </script>
 </body>
 </html>

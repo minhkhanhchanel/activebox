@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
@@ -18,13 +19,13 @@
     <div class="main">
         <div class="header grid">
             <div class="header-content grid wide">
-                <div class="header__logo">
+                <a href="#" class="header__logo">
                     <img src="./assets/img/logo@2x.png" alt="logo" class=" header__logo-img">
-                </div>
+                </a>
                 <div class="navigation">
                     <ul class="navigation__item">
                         <li class="navigation__item-list">
-                            <a href="" class="navigation__item-content" >FEATURES</a>
+                            <a href="#feature" class="navigation__item-content" >FEATURES</a>
                         </li>
                         <li class="navigation__item-list">
                             <a href="#work" class="navigation__item-content" >WORKS</a>
@@ -52,7 +53,7 @@
             </div>
         </div>
         <div class="body grid">
-            <div class="feature">
+            <div class="feature" id="feature">
                 <div class="grid wide">
                     <div class="row feature__row">
                         <div class="col l-4 m-6 c-12">
@@ -101,7 +102,7 @@
                 </div>
             </div>
             <div class="work" id="work">
-                <div class="row no-gutters">
+                <div class="row no-gutters" id="work-row">
                     <div class="work__col col l-3">
                         <div class="work__item" style="background-image: url(./assets/img/work-1.jpg);"></div>
                         <div class="work__list">

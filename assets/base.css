@@ -1,7 +1,7 @@
 :root{
-    
     --primary-color: #313454;
     --header-height: 100px;
+    --sticky-height: 74px;
     --primary-text-dark-color: #6c7279;
     --secondary-text-light-color: #efdcdd;
     --thirst-color: #ccccd3;
@@ -14,6 +14,9 @@
 
 *{
     box-sizing: border-box;
+}
+body{
+    margin: 0;
 }
 html{
     /* HACK */
